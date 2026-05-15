@@ -103,7 +103,7 @@ flowchart LR
     PAGES --> LIVE
 ```
 
-## Tech Stack
+## Tech Stack (This Project)
 
 | Layer | Technology | Purpose |
 |-------|------------|---------|
@@ -117,6 +117,70 @@ flowchart LR
 | **CI/CD** | GitHub Actions | Automated build & deploy |
 | **Hosting** | GitHub Pages | Free static hosting + CDN |
 | **Domain** | github.io | Free subdomain |
+
+---
+
+## 💡 Full Technology Expertise
+
+### ☁️ Cloud & Infrastructure
+| Technology | Experience Level | Context |
+|------------|-----------------|---------|
+| **Azure** | Expert | Production SaaS platforms |
+| **Kubernetes (AKS)** | Expert | Container orchestration at scale |
+| **Microservices** | Expert | Distributed system architecture |
+| **Docker** | Advanced | Containerization |
+
+### 💻 Development & Languages
+| Technology | Experience Level | Context |
+|------------|-----------------|---------|
+| **Java** | Expert | Enterprise backend development |
+| **SQL** | Expert | Database design & optimization |
+| **React** | Advanced | Modern frontend development |
+| **TypeScript** | Advanced | Type-safe JavaScript |
+| **REST APIs** | Expert | Service integration |
+| **Spark** | Advanced | Big data processing pipelines |
+
+### 🔧 DevOps & Automation
+| Technology | Experience Level | Context |
+|------------|-----------------|---------|
+| **CI/CD Pipelines** | Expert | Build & deployment automation |
+| **Rundeck** | Advanced | Self-service deployments |
+| **Cypress** | Advanced | End-to-end test automation |
+| **Test Automation** | Expert | Quality engineering |
+| **Performance Optimization** | Expert | System tuning |
+
+### 🤖 AI & Machine Learning
+| Technology | Experience Level | Context |
+|------------|-----------------|---------|
+| **LLMs (GPT, Claude)** | Advanced | AI integration in workflows |
+| **AI Agents** | Advanced | Automated task execution |
+| **GitHub Copilot** | Advanced | AI-assisted development |
+| **Prompt Engineering** | Advanced | Effective AI utilization |
+
+### 📊 Program & Project Management
+| Technology | Experience Level | Context |
+|------------|-----------------|---------|
+| **JIRA** | Expert | Portfolio & project tracking |
+| **Agile/Scrum** | Expert | Team delivery methodology |
+| **SAFe** | Advanced | Scaled agile framework |
+| **Kanban** | Advanced | Workflow management |
+
+### 🎯 Leadership & Soft Skills
+| Skill | Demonstrated Impact |
+|-------|---------------------|
+| **Team Building** | 90% retention rate |
+| **Mentorship** | Multiple promotions facilitated |
+| **Stakeholder Communication** | Executive dashboards, cross-team alignment |
+| **Risk Management** | Proactive issue identification |
+| **Strategic Planning** | Roadmap & initiative ownership |
+
+### 🔒 Security & Compliance
+| Technology | Experience Level | Context |
+|------------|-----------------|---------|
+| **Ethical Hacking** | Intermediate | AppScan, Paros (Fiserv era) |
+| **ACH/NACHA** | Advanced | Payment compliance |
+
+---
 
 ## Component Structure
 
