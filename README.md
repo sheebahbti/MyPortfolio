@@ -1,5 +1,7 @@
 # Sheeba Ahmed - Portfolio
 
+🌐 **Live Site**: [https://sheebahbti.github.io/MyPortfolio/](https://sheebahbti.github.io/MyPortfolio/)
+
 A modern, responsive portfolio website showcasing my experience as a Software Engineering Manager with 15+ years in cloud engineering, SaaS, and AI innovation.
 
 ## 🚀 Features
