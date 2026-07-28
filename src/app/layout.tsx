@@ -1,9 +1,6 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import { ResumeProvider } from '@/lib/resumeContext'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sheeba Ahmed | Software Engineering Manager',
@@ -24,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-900 text-white`}>
+      <body className="bg-slate-900 text-white font-sans">
         <ResumeProvider>{children}</ResumeProvider>
       </body>
     </html>
