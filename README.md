@@ -4,7 +4,27 @@
 
 A modern, responsive portfolio website showcasing my experience as a Software Engineering Manager with 15+ years in cloud engineering, SaaS, and AI innovation.
 
-## 🚀 Features
+## 🚀 Quick Start
+
+### Local Development
+```bash
+npm run dev
+```
+Visit: **`http://localhost:3002`**
+
+### Update Your Resume
+Edit: `src/lib/defaultResume.json`
+
+### Deploy
+```bash
+npm run build
+git add .
+git commit -m "Update resume"
+git push origin main
+```
+✅ Auto-deploys to: `https://sheebahbti.github.io/MyPortfolio/`
+
+## 💡 Features
 
 - **Hero Section** - Professional introduction with contact links
 - **About** - Summary and leadership philosophy
@@ -20,34 +40,7 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Language**: TypeScript
-- **Deployment**: Optimized for Vercel / GitHub Pages
-
-## 📦 Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Export static site
-npm run build  # outputs to /out folder
-```
-
-## 🌐 Deployment
-
-### Vercel (Recommended)
-1. Push to GitHub
-2. Import project in Vercel
-3. Deploy automatically
-
-### GitHub Pages
-1. Run `npm run build`
-2. Push `/out` folder to `gh-pages` branch
+- **Deployment**: GitHub Pages (Auto-deploy on push)
 3. Enable GitHub Pages in repository settings
 
 ## 📁 Project Structure
