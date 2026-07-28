@@ -4,25 +4,18 @@
 
 A modern, responsive portfolio website showcasing my experience as a Software Engineering Manager with 15+ years in cloud engineering, SaaS, and AI innovation.
 
-## 🚀 Quick Start
+## � How to Update Your Resume
 
-### Local Development
-```bash
-npm run dev
-```
-Visit: **`http://localhost:3002`**
-
-### Update Your Resume
 Edit: `src/lib/defaultResume.json`
 
-### Deploy
+Then deploy:
 ```bash
-npm run build
 git add .
 git commit -m "Update resume"
 git push origin main
 ```
-✅ Auto-deploys to: `https://sheebahbti.github.io/MyPortfolio/`
+
+Changes automatically deploy to the live URL!
 
 ## 💡 Features
 
@@ -41,33 +34,3 @@ git push origin main
 - **Icons**: Lucide React
 - **Language**: TypeScript
 - **Deployment**: GitHub Pages (Auto-deploy on push)
-3. Enable GitHub Pages in repository settings
-
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── globals.css      # Global styles
-│   ├── layout.tsx       # Root layout
-│   └── page.tsx         # Main page
-└── components/
-    ├── Navigation.tsx   # Responsive nav
-    ├── Hero.tsx         # Hero section
-    ├── About.tsx        # About & philosophy
-    ├── Skills.tsx       # Skills grid
-    ├── Timeline.tsx     # Career journey
-    ├── AIInitiatives.tsx # AI projects
-    ├── Projects.tsx     # Key achievements
-    └── Contact.tsx      # Contact section
-```
-
-## 🎨 Customization
-
-- Edit component files in `src/components/` to update content
-- Modify `tailwind.config.ts` for theme colors
-- Update `src/app/layout.tsx` for metadata
-
-## 📄 License
-
-MIT License
