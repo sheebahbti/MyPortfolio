@@ -1,0 +1,139 @@
+{
+  "name": "Sheeba Ahmed",
+  "title": "Software Engineering Manager",
+  "skills": [
+    {
+      "title": "Cloud & Infrastructure",
+      "skills": ["Azure", "Kubernetes", "AKS", "Microservices", "Docker"],
+      "color": "from-blue-500 to-cyan-500"
+    },
+    {
+      "title": "Development",
+      "skills": ["Java", "React", "SQL", "REST APIs", "Spark"],
+      "color": "from-green-500 to-emerald-500"
+    },
+    {
+      "title": "DevOps & Automation",
+      "skills": ["CI/CD", "Rundeck", "Cypress", "Test Automation", "Performance Optimization"],
+      "color": "from-orange-500 to-yellow-500"
+    },
+    {
+      "title": "AI & Innovation",
+      "skills": ["LLMs", "AI Agents", "GitHub Copilot", "Prompt Engineering", "RAG", "ML"],
+      "color": "from-purple-500 to-pink-500"
+    },
+    {
+      "title": "Leadership",
+      "skills": ["Team Building", "Mentorship", "Agile/Scrum", "Program Management", "Stakeholder Communication"],
+      "color": "from-red-500 to-rose-500"
+    },
+    {
+      "title": "Process & Methodology",
+      "skills": ["Spec-Driven Development", "Risk Management", "SAFe", "Kanban", "JIRA Portfolio"],
+      "color": "from-indigo-500 to-violet-500"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2018 – Present",
+      "title": "Software Engineering Manager",
+      "company": "PROS Inc.",
+      "location": "Houston, TX",
+      "highlights": [
+        "Engineered AI agents to automate Tier-1 test cases, improving test efficiency and reducing execution time by 3%",
+        "Prototyped Spec Driven Development (SDD) with AI-assisted documentation, reducing development cycle time",
+        "Built AI-driven Support Command Center UI automating operational queries and reducing manual workload",
+        "Integrated LLMs into Jira to auto-surface documentation, streamlining support ticket triage",
+        "Engineered Spark-based pipelines reducing processing time from hours to minutes",
+        "Led migration of 100+ screens from legacy UI to React",
+        "Created executive JIRA dashboards, reducing reporting time by 30%",
+        "Led Willingness-to-Pay feature development, contributing to 3% revenue increase",
+        "Implemented SMART goals and coaching programs, achieving 90% team retention"
+      ],
+      "color": "from-blue-500 to-purple-500"
+    },
+    {
+      "period": "2017 – 2018",
+      "title": "Lead Software Engineer",
+      "company": "PROS Inc.",
+      "location": "Houston, TX",
+      "highlights": [
+        "Led design and delivery of microservices and distributed components ensuring scalability",
+        "Drove technical decisions, code quality standards, and best practices across the team",
+        "Partnered with Product and UX to define technical requirements for customer-focused features",
+        "Guided sprint planning and technical estimations to improve delivery predictability",
+        "Mentored engineers through design reviews, pair programming, and technical coaching"
+      ],
+      "color": "from-purple-500 to-pink-500"
+    },
+    {
+      "period": "2014 – 2017",
+      "title": "Senior Software Engineer → Software Engineer",
+      "company": "PROS Inc.",
+      "location": "Houston, TX",
+      "highlights": [
+        "Developed core modules for airline revenue management using Java and SQL",
+        "Designed microservices, REST APIs, and cloud-native components",
+        "Built UI components and automated tests to improve quality",
+        "Improved performance and reliability through refactoring and automation"
+      ],
+      "color": "from-pink-500 to-red-500"
+    },
+    {
+      "period": "2010 – 2014",
+      "title": "Sr. Systems Analyst",
+      "company": "Fiserv",
+      "location": "Charlotte, NC",
+      "highlights": [
+        "Full-stack development for CPO payments product (ACH/NACHA)",
+        "Performed ethical hacking and security testing using Paros and AppScan",
+        "Applied Agile, Scrum, SAFe, and Kanban as SCRUM Master"
+      ],
+      "color": "from-red-500 to-orange-500"
+    },
+    {
+      "period": "2006 – 2010",
+      "title": "Engineer – Application Development",
+      "company": "DXC Technology",
+      "location": "India",
+      "highlights": [
+        "Developed Java-based applications and web services for SICS reinsurance product",
+        "Contributed to enterprise software development with focus on scalability and performance"
+      ],
+      "color": "from-orange-500 to-yellow-500"
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Test Automation Agent",
+      "description": "Engineered AI agents to automate Tier-1 test cases, improving test efficiency and reducing execution time by 3%",
+      "tech": ["Python", "LLMs", "Cypress", "AI Agents", "Automation"]
+    },
+    {
+      "title": "Spec Driven Development (SDD)",
+      "description": "Prototyped and implemented SDD with AI-assisted documentation and validation, reducing development cycle time and improving predictability",
+      "tech": ["AI", "Documentation", "GitHub Copilot", "Development Process"]
+    },
+    {
+      "title": "AI Support Command Center",
+      "description": "Built an AI-driven Support Command Center UI automating operational queries and reducing repetitive workload for global teams",
+      "tech": ["React", "LLMs", "UI/UX", "AI Integration"]
+    },
+    {
+      "title": "RAG-based Codebase Q&A Agent",
+      "description": "Built a RAG-based agent using LangChain, ChromaDB, and Groq (Llama 3) that ingests GitHub repositories with hybrid vector + keyword search",
+      "tech": ["LangChain", "ChromaDB", "Llama 3", "RAG", "GitHub API"]
+    },
+    {
+      "title": "Spark Pipeline Optimization",
+      "description": "Engineered Spark-based pipelines reducing processing time from hours to minutes, improving data processing efficiency",
+      "tech": ["Spark", "Java", "Performance Optimization", "Big Data"]
+    },
+    {
+      "title": "Cloud Infrastructure Migration",
+      "description": "Led migration of legacy modules to microservices on Azure/AKS with 100+ screens migrated from legacy UI to React",
+      "tech": ["Azure", "Kubernetes", "Microservices", "React", "Cloud"]
+    }
+  ]
+}
+

@@ -1,0 +1,26 @@
+# Resume Input Folder
+
+## How to Use
+
+1. **Drag & Drop** your resume file here:
+   - Word documents (.docx, .doc) ✅
+   - PDF files (.pdf) - use web tool instead
+
+2. **Run the parser:**
+   ```bash
+   npm run parse-resume
+   ```
+
+3. **Check the output** - text will be extracted and shown in terminal
+
+4. **Update the JSON:**
+   - Open: `src/lib/defaultResume.json`
+   - Manually fill in your resume data
+
+5. **Build:**
+   ```bash
+   npm run build
+   ```
+
+That's it! 🚀
+

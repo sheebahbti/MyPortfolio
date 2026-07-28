@@ -1,37 +1,10 @@
-const skillCategories = [
-  {
-    title: 'Cloud & Infrastructure',
-    skills: ['Azure', 'Kubernetes', 'AKS', 'Microservices', 'Docker'],
-    color: 'from-blue-500 to-cyan-500',
-  },
-  {
-    title: 'Development',
-    skills: ['Java', 'React', 'SQL', 'REST APIs', 'Spark'],
-    color: 'from-green-500 to-emerald-500',
-  },
-  {
-    title: 'DevOps & Automation',
-    skills: ['CI/CD', 'Rundeck', 'Cypress', 'Test Automation', 'Performance Optimization'],
-    color: 'from-orange-500 to-yellow-500',
-  },
-  {
-    title: 'AI & Innovation',
-    skills: ['LLMs', 'AI Agents', 'GitHub Copilot', 'Prompt Engineering', 'AI Integration'],
-    color: 'from-purple-500 to-pink-500',
-  },
-  {
-    title: 'Leadership',
-    skills: ['Team Building', 'Mentorship', 'Agile/Scrum', 'Program Management', 'Stakeholder Communication'],
-    color: 'from-red-500 to-rose-500',
-  },
-  {
-    title: 'Process & Methodology',
-    skills: ['Spec-Driven Development', 'Risk Management', 'SAFe', 'Kanban', 'JIRA Portfolio'],
-    color: 'from-indigo-500 to-violet-500',
-  },
-]
+'use client'
+
+import { useResume } from '@/lib/resumeContext'
 
 export default function Skills() {
+  const { resume } = useResume()
+
   return (
     <section id="skills" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
@@ -43,7 +16,7 @@ export default function Skills() {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {skillCategories.map((category, index) => (
+          {resume.skills.map((category, index) => (
             <div
               key={index}
               className="bg-slate-800 rounded-xl p-6 card-hover border border-slate-700"
